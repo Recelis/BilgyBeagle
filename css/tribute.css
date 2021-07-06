@@ -1,5 +1,52 @@
 body{
-  margin: 60px;
-  /*background-color:rgb(240,240,240);*/
-  background-color:red;
+  /* margin: auto; */
+  background-color:rgb(240,240,240);
 }
+
+#main{
+  margin:auto;
+  width:80%;
+  font-family:Sans-serif, Helvetica; 
+  font-size:16px;
+}
+
+#title{
+  font-size:64px;
+  margin-bottom:0px;
+}
+
+#subTitle{
+  font-size:24px;
+  font-weight:normal;
+}
+
+#img-div{
+  /* position:block; */
+  width:100%;
+}
+
+#image{
+  max-width:100%;
+  display:block;
+  height:auto;
+  margin:auto;
+}
+
+#img-caption{
+  font-size:16px;
+  margin:0px;
+}
+
+#tribute-info{
+  background-color:white;
+  padding:20px;
+  border-radius:5px;
+}
+
+@media(min-width:800px){
+  #main{
+    width:60%;
+  }
+}
+
+
